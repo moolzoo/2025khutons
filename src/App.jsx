@@ -4,12 +4,24 @@ import CardStack from './CardStack'
 import potatoImg from './assets/images/potato.png';
 import ResultScreen from './ResultScreen';
 
-function App() {
-  const [count, setCount] = useState(0)
+function ResultScreen() {
 
   return (
     <div className="App">
       <ResultScreen></ResultScreen>
+    </div>
+  );
+}
+
+function App() {
+  const [count, setCount] = useState(0)
+
+
+
+  return (
+    <div className="App">
+      <ResultScreen></ResultScreen>
+      <p>hi</p>
     </div>
   )
 }
