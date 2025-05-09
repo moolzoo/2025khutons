@@ -45,12 +45,7 @@ const CardStack = () => {
           className={`card ${cardPositions[index]}`}
           onClick={() => handleCardClick(index)}
         >
-          <img
-            src={card.img}
-            alt={card.name}
-            className="card-image"
-            style={{ width: "100%", height: "100%", borderRadius: "5px" }}
-          />
+          <img src={card.img} alt={card.name} className="card-image" style={{ width: "100%", height: "100%", borderRadius: "5px" }}/>
         </div>
       ))}
     </div>
