@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import './CardStack.css';
+import potatoImg from './assets/images/potato.png';
+import mooImg from './assets/images/moo.png';
+import siImg from './assets/images/시금치 프레임.png';
+import cornImg from './assets/images/옥수수 프레임.png';
 
 const cards = [
-  { id: 1, name: 'Card 1', color: '#EF4444' },
-  { id: 2, name: 'Card 2', color: '#10B981' },
-  { id: 3, name: 'Card 3', color: '#3B82F6' },
+  { id: 1, name: 'Card 1', color: '#EF4444' , img: mooImg},
+  { id: 2, name: 'Card 2', color: '#10B981'  , img: cornImg},
+  { id: 3, name: 'Card 3', color: '#3B82F6'  , img: siImg},
 ];
 
 const positions = ['left', 'center', 'right'];
@@ -38,7 +42,7 @@ const CardStack = () => {
           style={{ backgroundColor: card.color }}
           onClick={() => handleCardClick(index)}
         >
-          {card.name}
+          <img src={card.img} alt={card.name} className="card-image" style={{ width: "100%", height: "100%", borderRadius: "200px" }}/>
         </div>
       ))}
     </div>

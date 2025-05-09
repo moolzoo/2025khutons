@@ -4,3 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
