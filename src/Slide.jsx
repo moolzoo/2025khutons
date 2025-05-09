@@ -1,9 +1,9 @@
 import React from "react";
-import x12 from "./assets/images/가지.png";
-import x13 from "./assets/images/토마토.png";
-import x14 from "./assets/images/샐러리.png";
-import x1 from "./assets/images/당근.png";
-import image from "./assets/images/감자.png";
+// import x12 from "./assets/images/가지.png";
+// import x13 from "./assets/images/토마토.png";
+// import x14 from "./assets/images/샐러리.png";
+// import x1 from "./assets/images/당근.png";
+// import image from "./assets/images/감자.png";
 import "./Slide.css";
 
 
