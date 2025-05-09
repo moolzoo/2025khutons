@@ -1,17 +1,17 @@
 import React from "react";
-import x12 from "./1-2.png";
-import x13 from "./1-3.png";
-import x14 from "./1-4.png";
-import x1 from "./1.png";
-import image from "./image.png";
-import image1 from "./image.svg";
-import line12 from "./line-1-2.svg";
-import line13 from "./line-1-3.svg";
-import line14 from "./line-1-4.svg";
-import line15 from "./line-1-5.svg";
-import line16 from "./line-1-6.svg";
-import line1 from "./line-1.svg";
-import "./style.css";
+// import x12 from "./1-2.png";
+// import x13 from "./1-3.png";
+// import x14 from "./1-4.png";
+// import x1 from "./1.png";
+// import image from "./image.png";
+// import image1 from "./image.svg";
+// import line12 from "./line-1-2.svg";
+// import line13 from "./line-1-3.svg";
+// import line14 from "./line-1-4.svg";
+// import line15 from "./line-1-5.svg";
+// import line16 from "./line-1-6.svg";
+// import line1 from "./line-1.svg";
+import "./index2.css";
 
 export const Slide = () => {
   return (
